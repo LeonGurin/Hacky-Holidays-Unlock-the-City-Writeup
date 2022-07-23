@@ -4,7 +4,7 @@
 There is a hidden flag in the webpage. Can you find it?
 ___
 After looking at the sources and finding nothing I decided to open up BurpSuite and just looking at the responses from the webpage and can notice the flag for the '/' get request:
-![img0](/My-CTF-challenge-Writeups/Hacky%20Holidays%20-%20Unlock%20the%20City/MAYOR'S%20BLOG/images/img0.png)
+![img0](https://github.com/LeonGurin/My-CTF-challenge-Writeups/blob/main/Hacky%20Holidays%20-%20Unlock%20the%20City/MAYOR'S%20BLOG/images/img0.png)
 
 > CTF{xjDmWhLh3VHKip8NHYLRwbgoXmwaq5RG}
 ___
