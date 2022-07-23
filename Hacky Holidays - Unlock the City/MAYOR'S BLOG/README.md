@@ -8,7 +8,10 @@ After looking at the sources and finding nothing I decided to open up BurpSuite 
 ![img0](https://github.com/LeonGurin/My-CTF-challenge-Writeups/blob/main/Hacky%20Holidays%20-%20Unlock%20the%20City/MAYOR'S%20BLOG/images/img0.png)
 
 > CTF{xjDmWhLh3VHKip8NHYLRwbgoXmwaq5RG}
+
 ___
+___
+
 **[20 POINTS]** *GET ACCESS TO AN EDITOR ACCOUNT*
 
 Try to exploit the password resetting functionality to gain access to an account.
@@ -19,6 +22,7 @@ username and password.
 There was a "forgot password" option. When you click it, you get brought to this page:
 
 ![img1](https://github.com/LeonGurin/My-CTF-challenge-Writeups/blob/main/Hacky%20Holidays%20-%20Unlock%20the%20City/MAYOR'S%20BLOG/images/img1.png)
+
 and so I looked at the main page again to find the details, 
 
 From this picture we can deduce the mayors friends name is George ✅
@@ -37,6 +41,9 @@ We click reset password and we get the flag:
 
 ![img5](https://github.com/LeonGurin/My-CTF-challenge-Writeups/blob/main/Hacky%20Holidays%20-%20Unlock%20the%20City/MAYOR'S%20BLOG/images/img5.png)
 > CTF{WwaqDNNkpPaGKKgJsAd71B5oP8TANyWl}
+
+___
+___
 
 **[30 POINTS]** *ESCALATE TO ADMINISTRATIVE PRIVILEGES*
 
@@ -57,6 +64,9 @@ We get an option to `Check ngnix logs` and once we click it we get brought to th
 
 ![img7](https://github.com/LeonGurin/My-CTF-challenge-Writeups/blob/main/Hacky%20Holidays%20-%20Unlock%20the%20City/MAYOR'S%20BLOG/images/img7.png)
 
+___
+___
+
 **[30 POINTS]** *GAIN ACCESS TO THE DEVELOPER CONSOLE*
 
 There is special console for administrators on the website, but the link is hidden. Find the link, and gain relevant information from the logs. In the end, use the console to find user information.
@@ -73,6 +83,9 @@ Accessing the admin_shell brought to a console like this:
 
 entering `ls` and catting the file `user.txt` gets us the flag:
 > CTF{3kdN6P8sEBLJyxHwsQlEgWVY2g3BBfan}
+
+___
+___
 
 **[35 POINTS]** *CRACK THE PASSWORD OF THE ADMIN ACCOUNT ON THE SERVER* 
 Find a vulnerability in the developer console and use it to access a password file.
