@@ -36,7 +36,7 @@ ___
 You can find instructions in the previous decrypted text to proceed. On completing this task you will get the second flag.
 ___
 
-The clue inside our decoded messeage is the name `Bellaso` which points to the `Vigenère cipher` cipher.
+The clue inside our decoded messeage is the name `Bellaso` which points to the `Vigenère cipher`.
 
 If we use Bellasos middle name `Battista` as the key and plug the string into an online Vigenère cipher decoder, we get the following string:
 

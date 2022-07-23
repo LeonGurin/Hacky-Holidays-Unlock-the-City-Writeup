@@ -7,6 +7,9 @@ If we open up the file inside `Audacity` and switch to the spectrogram view we c
 
 ![img0](https://github.com/LeonGurin/My-CTF-challenge-Writeups/blob/main/Hacky%20Holidays%20-%20Unlock%20the%20City/AUDIBLE%20TRANSMISSION/images/img0.png)
 
+___
+___
+
 **[75 POINTS]** *CODE*
 
 We think it may have something to do with a code, can you find it?
