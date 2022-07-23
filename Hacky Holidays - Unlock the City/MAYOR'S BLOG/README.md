@@ -75,6 +75,7 @@ Scrolling throught the logs we could see get requests to `robots.txt` and `admin
 `
       127.0.0.1 - - [26/Jun/2022:11:20:31 -0700] "GET /logging_in?username=sysadmin&password=JK28Qgb4WA3uuYa4 HTTP/1.1" 302 208 "http://mayorblog.local/login" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"
 `
+
 So, I tried loggin in as the sysadmin acount with `username=sysadmin password=JK28Qgb4WA3uuYa4` and then I tried to access the `robots.txt` file, it ended up redirecting to `admin_shell`. 
 
 Accessing the admin_shell brought to a console like this:
