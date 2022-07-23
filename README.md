@@ -1,7 +1,7 @@
 # My CTF challenge Writeups
-* In this Repo I will catalogue my solutions for different CTF challenges I have completed.
+ In this Repo I will catalogue my solutions for different CTF challenges I have completed.
  
-* I'm a beginner interested in cybersecurity for fun and my own fun and this is a way for me to organize my solutions and hopefully help others.
+ I'm a beginner interested in cybersecurity for fun and my own fun and this is a way for me to organize my solutions and hopefully help others.
 ___
 ## About Me
  My name is Leon and I'm an 18 year old Computer science student from the university of Haifa in Israel.
@@ -12,8 +12,8 @@ ___
 
  I'm just a beginner in the field so if you're hoping to make friends and learn together I encourage you to send a messege!
  **contact info:**
- * My email: _leon9gur@gmail.com_
- * My discord: _SpOOky_L#4203_
+ * My Email: _leon9gur@gmail.com_
+ * My Discord: _SpOOky_L#4203_
 
 ## Competitions
  As of today I have completed the following CTFs:
