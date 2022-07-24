@@ -69,10 +69,43 @@ After a long unzip we get a file named `stage4.mem`
 
 Using `binwalk` on it reveals a load of files...
 
-I googled what is a `.mem` extention and soon enough downloaded `foxPro` to try to open it.
+I googled what is a `.mem` file and found the program named `volatility`. 
 
+Trying to understand it for quite a while I gave up and tried common stego techniques like opening the file in a hex editor. 
 
+After looking inside I found that there were strings I could read and that birthed the idea of using `strings` with `grep` on the file.
 
+I'm not sure what was the intended solution but using 
+> strings stage4.mem | grep CTF
+
+I got the following output:
+
+```
+Found TESTINJECTFLAG
+MSCTF.DLL
+MSCTF.dll
+MSCTF.DLL
+MSCTF.dll
+ICTFStateSink
+CTF{1_F0UND Y0U L@P5U5$}.txt.lnk
+MSCTF.dll
+?bInit@BEZIER32@@QEAAHPEAU_POINTFIX@@PEAU_RECTFX@@@Z
+MSCTF.dll
+MSCTF.dll
+CThreadMgrEventSink_DIMCallBack::CTFDetection. EnableSystemKeystrokeFeed==NULL
+CThreadMgrEventSink_DIMCallBack::CTFDetection. DisableSystemKeystrokeFeed==NULL
+MN_SELECTFIRSTVALIDITEM
+MSCTF
+MSCTF
+?vInit@BEZIER64@@QEAAXPEAU_POINTFIX@@PEAU_RECTFX@@PEB_J@Z
+?bInit@BEZIER32@@QEAAHPEAU_POINTFIX@@PEAU_RECTFX@@@Z
+```
+
+and adding underscores to this string gave me the right flag:
+
+> CTF{1_F0UND_Y0U_L@P5U5$}
+
+Lucky me :D
 
 
 
