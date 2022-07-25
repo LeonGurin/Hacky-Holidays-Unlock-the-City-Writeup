@@ -28,12 +28,12 @@ Using the hint I opened the audio file in `Audacity` and looked at the spectrogr
 
 I looks just like a `QR Code!` maybe it is...
 
-![img0](https://github.com/LeonGurin/My-CTF-challenge-Writeups/blob/main/Hacky%20Holidays%20-%20Unlock%20the%20City/BRING%20IN%20THE%20CAVALRY/images/img0.png)
+![img0](https://github.com/LeonGurin/Hacky-Holidays-Unlock-the-City-Writeup/blob/main/BRING%20IN%20THE%20CAVALRY/images/img0.png)
 
 and so the long and tedious process of tracing it because a phone can't read it 😡
 
 I got this:
-![img1](https://github.com/LeonGurin/My-CTF-challenge-Writeups/blob/main/Hacky%20Holidays%20-%20Unlock%20the%20City/BRING%20IN%20THE%20CAVALRY/images/img1.png)
+![img1](https://github.com/LeonGurin/Hacky-Holidays-Unlock-the-City-Writeup/blob/main/BRING%20IN%20THE%20CAVALRY/images/img1.png)
 
 which brings to this link: 
 > https://mega.nz/file/GuQQjQjD#ofN2njJUk5zCxVI753BYUiBjUy30kArvLx8L9XJUZPY
