@@ -14,5 +14,5 @@
 
 🌟 I didn't finish these in time specifically, 50 points off `YOU CAN'T SEE ME` and 200 from `QUANTUM STATE`
 
-#I finished the competition with the score `650` and finished `201st` in the competition.
+# I finished the competition with the score `650` and finished `201st` in the competition.
 
